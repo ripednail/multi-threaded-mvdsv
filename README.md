@@ -12,3 +12,6 @@ So you'll just need to download the source if you want to compile or just run th
 
 export CILK_NWORKERS=4
 ./smpmvdsv
+
+
+if your using the ktx mod make sure you download the 32 bit version 
