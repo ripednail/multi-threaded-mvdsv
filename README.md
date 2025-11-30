@@ -14,4 +14,9 @@ export CILK_NWORKERS=4
 ./smpmvdsv
 
 
+
 if your using the ktx mod make sure you download the 32 bit version 
+
+Additonally I downloaded the latest KTX mod and configured the compile script to use cmake with 32 bit flags.
+
+Use the following to compile ./build_cmake.sh linux-i686
