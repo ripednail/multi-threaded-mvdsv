@@ -1,5 +1,9 @@
 This is a compile of the mvdsv source with LLVM/cmake with OPEN CILK 3.0
 
+I believe multi threaded quake servers are most applicable to low power systems with multiple cpus (raspberry pi nano 2w or similar). There are also some idle cpu improvements in mvdsv and ktx.
+
+It would be great if someone would go through the code and convert it from cilk to omp so that is more compatible with the latest mvdsv/ktx builds.
+
 You can download the opencilk binaries here: https://github.com/OpenCilk/opencilk-project/releases
 Just extract to a directory and export the compiler to compile or run mvdsv
 
